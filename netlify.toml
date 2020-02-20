@@ -1,0 +1,10 @@
+[build]
+  command = "echo 'build'"
+
+  publish = "out"
+
+[build.deploy-preview-site-a]
+  base = "packages/site-a"
+
+[build.deploy-preview-site-b]
+  base = "packages/site-b"
